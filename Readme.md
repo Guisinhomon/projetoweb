@@ -1,1 +1,1 @@
-Aqui 
+Aqui você especifica do que se trata o seu projeto!

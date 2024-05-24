@@ -2,28 +2,28 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-    background-color: black;
-    color: #fff;
+    background-color: white;
+    color: black;
 }
 /* CORES DE FUNDO */
 .bg-cor-1{
-    background-color: #252525;
+    background-color: #25252533;
 }
 .bg-cor-2{
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.432);
 }
 
 /* CORES PARA TEXTO */
 .cor-1{
-    color: aqua;
+    color: black;
 }
 
 .cor-2{
-    color: aqua;
+    color: black;
 }
 
 .cor-clara{
-    color: aqua;
+    color: black;
 }
 
 .cor-escuro{
@@ -38,7 +38,7 @@ body{
 }
 
 .navbar-brand:hover{
-        color: #aea7a7;
+        color: black;
 }
 
 @media(min-width: 768px){
@@ -86,7 +86,7 @@ body{
 
 /* estilizando o form de pesquisa*/
 #form-pesquisa{
-    border: 2px solid #626262;
+    border: 2px solid black;
     border-radius: 3px;
     padding: 5px 15px;
 }
@@ -94,7 +94,7 @@ body{
 #form-pesquisa input{
     background-color: transparent;
     border: none;
-    color: aqua;
+    color: black;
 }
 
 #form-pesquisa input :focus{
@@ -102,7 +102,7 @@ box-shadow: none;
 }
 
 #form-pesquisa input::placeholder{
-    color: aqua;
+    color: black;
 }
 
 /* CSS DA NAVBAR INFERIOR */
@@ -112,7 +112,7 @@ box-shadow: none;
 /* estilizando o texto dos links da navbar inferior */
 #container-navbar-inferior a{
     font-weight: 900;
-    color: cornflowerblue;
+    color: black;
 }
 
 .navbar-toggler{
@@ -180,11 +180,11 @@ box-shadow: none;
 
 #mini-banners-container .col-12 a{
     font-weight: bold;
-    color: #fff;
+    color: black;
     font-size: 0.8em;
     transition: 0.5s;
 }
 
 #mini-banners-container .col-12 a:houver{
-    color: #626262;
+    color: black;
 }
